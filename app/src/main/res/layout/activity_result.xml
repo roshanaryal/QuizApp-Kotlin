@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_gravity="center"
+        android:text="CongratulationYour score is  3"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="356dp" />
+</LinearLayout>
